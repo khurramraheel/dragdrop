@@ -1,33 +1,126 @@
-.App {
-  text-align: center;
+
+
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.color {
+  background-color: white;
+  height: 50px;
+  width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.colordiv {
+  width: 100px;
+  background-color: rgb(250, 241, 241);
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+}
+
+.warddrobediv {
+  width: 400px;
+  height: auto;
+  position: relative;
+  float: right;
+  margin-right: 30%;
+  display: inline-block;
+}
+
+.warddrobe {
+  width: 500px;
+  height: auto;
+}
+
+#back {
+ 
+  position: absolute;
+  clip-path: polygon(0% 3.5%, 100% 0%, 100% 100%, 0% 95%);
+  height: 456px;
+  margin-left: 32%;
+  margin-top: 11px;
+  width: 9%;
+  /* background-color: aliceblue; */
+
+}
+
+#door1 {
+ 
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 1%, 100% 98.5%, 0% 100%);
+  margin-left: 41%;
+  width: 26.5%;
+  height: 452px;
+  position: absolute;
+  margin-top: 13px;
+}
+
+#door2 {
+ 
+  position: absolute;
+  clip-path: polygon(0% 1%, 100% 2%, 100% 97%, 0% 98.5%);
+  margin-top: 16px;
+  margin-left: 67.5%;
+   width: 25.5%;
+  height: 452px;
+  position: absolute;
+  margin-left: 67.5%;
+  margin-top: 13px; 
+
+}
+
+.tabdiv {
+  width: 140px;
+  background-color: rgb(250, 241, 241);
+  display: inline-block;
+  position: relative;
+}
+
+.tabdiv button:active {
+  color: blue;
+}
+
+.icondiv {
+  width: 100px;
+  background-color: rgb(250, 241, 241);
+  padding: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+.navdiv{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1%;
+  width: 98%;
 }
-
-.App-link {
-  color: #61dafb;
+.navdiv button:active{
+  color:#aaaaaa;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bedback{
+  /* background-color: aqua; */
+  width: 63%;
+  height: 60px;
+  position: absolute;
+  opacity: 0.5;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+#bedfront{
+  /* background-color: aqua; */
+  width: 111%;
+  height: 120px;
+  position: absolute;
+  opacity: 0.5;
+  margin-top: 247px;
+  margin-left: 33px;
 }
